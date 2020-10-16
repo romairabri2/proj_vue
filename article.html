@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Maquetación para el master en framework Javascript</title>
+
+        <!--Hoja de estilos-->
+        <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+
+    </head>
+    <body>
+        <header id="header">
+            <div class="center">
+                <!-- LOGO -->
+                <div id="logo">
+                    <img src="assets/images/react-2.svg" class="app-logo" alt="logotipo">
+                    <span id="brand">
+                        <strong>Curso</strong>React
+                    </span>
+                </div>
+
+                <!-- Menú -->
+                <nav id="menu">
+                    <ul>
+                        <li>
+                            <a href="index.html">Inicio</a>
+                        </li>
+                        <li>
+                            <a href="blog.html">Blog</a>
+                        </li>
+                        <li>
+                            <a href="formulario.html">Formulario</a>
+                        </li>
+                        <li>
+                            <a href="#">Pagina1</a>
+                        </li>
+                        <li>
+                            <a href="#">Pagina2</a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- LIMPIAR FLOTADOS -->
+                <div class="clearfix"></div>
+            </div>
+        </header>
+        
+        <div class="center">
+            <section id="content">
+                <div id="articles">
+                    <article class="article-item article-detail">
+                        <div class="image-wrap">
+                            <img src="https://images.unsplash.com/photo-1589832434867-f7bab047c5a3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
+                        </div>
+                        <h1  class="subheader">Articulo de prueba</h1>
+                        <span class="date">
+                            Hace 5 min
+                        </span>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae ipsum eu lacus lobortis cursus. Donec efficitur quis est in elementum. Nulla facilisi. Nullam id neque vulputate, accumsan ligula pharetra, dictum quam. Aliquam neque arcu, viverra eget fermentum ac, consectetur sit amet massa. Mauris porttitor ut ligula vitae volutpat. Praesent gravida quam quis augue scelerisque imperdiet. Donec tempus maximus ipsum, porta varius neque dapibus at. Sed at dignissim ipsum, ut faucibus tortor. Sed rhoncus scelerisque mauris vitae euismod. Aliquam convallis interdum tristique. Proin laoreet ac nibh vel luctus. Sed dignissim maximus libero, quis accumsan quam luctus quis.
+                        </p>
+                        <p>
+                            Proin semper quam id ex commodo tempus. Phasellus eu est enim. Cras mattis, felis tincidunt venenatis molestie, sem nisi bibendum tellus, quis congue nibh eros nec urna. Mauris facilisis nibh a felis facilisis, non dictum ante elementum. Vivamus et ex suscipit, fermentum turpis vitae, ultricies justo. Integer in massa ac tortor ornare fringilla ac quis quam. Vestibulum feugiat odio pulvinar hendrerit lacinia. Vestibulum faucibus felis sit amet tortor ultrices blandit. Aenean vestibulum molestie felis, ut posuere sapien consequat consequat. Etiam eget risus eros.
+                        </p>
+                        <p>
+                            Duis sed urna est. Mauris vitae risus dignissim, accumsan dui eget, bibendum justo. Nulla facilisi. Aenean ultrices nulla sem, in consectetur odio varius vulputate. Sed ultricies sapien et risus porta, sed ornare orci vehicula. In a ipsum at sem tincidunt efficitur sit amet vel elit. Mauris ullamcorper enim a felis lacinia sagittis. Phasellus id congue lacus, at varius odio. Praesent feugiat viverra dignissim. Suspendisse vehicula fermentum sem, eget fringilla tortor dignissim et. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc pharetra, velit sit amet venenatis eleifend, quam mauris condimentum ligula, ut facilisis neque urna at leo. Pellentesque eget justo sollicitudin, egestas mauris vel, consequat dui. Nunc ut nisi iaculis nibh aliquet malesuada. Duis vel odio non sapien viverra sodales eget vel arcu. Fusce vel orci vel diam commodo consequat.
+                        </p>
+                        <div class="clearfix"></div>
+                    </article>
+                    <!-- AÑADIR ARTICULOS VIA JS-->
+                </div>
+            </section>
+            <aside id="sidebar">
+                <div id="nav-blog" class="sidebar-item">
+                    <h3> Puedes hacer esto                   
+                    </h3>
+                        <a href="#" class="btn btn-success">Crear artículo</a>
+                </div>
+                <div id="search" class="sidebar-item">
+                    <h3> Buscador                   
+                    </h3>
+                    <p>Encuentra el artículo que buscas</p>
+                    <form>
+                        <input type="text" name="search">
+                        <input type="submit" name="submit" value="buscar" class="btn">
+                    </form>
+                </div>
+            </aside>
+            <div class="clearfix"></div>
+        </div>
+
+        <footer id="footer">
+            <div class="center">
+                <p>
+                    &copy; Master en Frameworks para Javascript de victorroblesweb.es
+                </p>
+            </div>
+        </footer>
+    </body>
+
+</html>
